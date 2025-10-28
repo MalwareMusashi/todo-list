@@ -2,13 +2,13 @@
 todo_list = []
 
 
-# Function to add a task to the to-do list
+
 def add_task(job):
     todo_list.append(job)
     print("Task added:", job)
 
 
-# Function to remove a task from the to-do list
+
 def remove_task(job):
     if job in todo_list:
         todo_list.remove(job)
@@ -17,7 +17,7 @@ def remove_task(job):
         print("Task not found in the to-do list.")
 
 
-# Function to display the to-do list
+
 def display_list():
     if len(todo_list) == 0:
         print("Your to-do list is empty.")
@@ -27,7 +27,7 @@ def display_list():
             print(f"{i}. {job}")
 
 
-# Main program loop
+
 while True:
     print("\nOptions:")
     print("1. Add a task")
